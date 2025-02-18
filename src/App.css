@@ -1,0 +1,33 @@
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  width: 100vw;
+  height: 100vh;
+}
+.container{
+  width: 100%;
+}
+.title{
+  text-align: center;
+}
+.form-container{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+
+ 
+}
+input, button{
+  width: 50%;
+  margin: auto;
+}
+input{
+  padding: 5px;
+  border-radius: 5px;
+}
+.card-body{
+  text-align: center;
+}
